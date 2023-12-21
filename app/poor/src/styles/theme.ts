@@ -1,13 +1,11 @@
 const deviceSizes = {
-    small: 375,
+    small: 320,
     medium: 768,
 };
 
 const breakpoints = {
     small: `@media screen and (max-width: ${deviceSizes.small}px)`,
-    medium: `@media screen and (min-width: ${
-        deviceSizes.small + 1
-    }px max-width: ${deviceSizes.medium}px)`,
+    medium: `@media screen and (max-width: ${deviceSizes.medium}px)`,
 };
 
 const colors = {
@@ -21,6 +19,7 @@ const colors = {
 const theme = {
     colors,
     breakpoints,
+    deviceSizes,
 };
 
 export default theme;

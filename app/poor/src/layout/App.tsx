@@ -1,10 +1,17 @@
 import react from 'react';
+import { AppStyle } from '../styles';
+
+const { WrapperMain, WrapperContent, Header } = AppStyle;
 
 function App() {
     return (
-        <div>
-            <h1>Hello~~~!!!!</h1>
-        </div>
+        <WrapperMain>
+            MAIN
+            <WrapperContent>
+                CONTENT
+                <Header>HEADER</Header>
+            </WrapperContent>
+        </WrapperMain>
     );
 }
 
