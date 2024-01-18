@@ -29,6 +29,8 @@ const Header = styled.div`
     border: 1px solid #ccc;
 `;
 
+const Footer = styled.div``;
+
 const AppStyle = {
     WrapperMain,
     WrapperContent,
